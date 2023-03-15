@@ -1,18 +1,16 @@
 import config from "../config.js";
 
 // Get local time
-const localDate = new Date()
-  .toLocaleString("en-us", {
-    timeZone: config.timeZone,
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  })
-  .replaceAll("/", "");
+let date = new Date().toLocaleString("en-us", {
+  timeZone: config.timeZone,
+});
+date = new Date(date);
+const localDate = Number(`${date.getFullYear()}${date.getMonth() + 1}${date.getDate()}`);
 
 // Script start here
 if (config.openDate != false) {
-  const openDate = Number(config.openDate.replaceAll("-", ""));
+  date = new Date(config.openDate);
+  const openDate = Number(`${date.getFullYear()}${date.getMonth() + 1}${date.getDate()}`);
 
   if (localDate > openDate) {
     location.href = "../../pages/late.html";

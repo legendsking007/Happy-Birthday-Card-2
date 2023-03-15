@@ -35,7 +35,7 @@ The `name` and `nickname` are self explainatory and `nickname` is optional. If n
 `pic` will take the url of the image of the recipient. This will appear on the birthday card.
 
 `openDate` is used to prevent user open the page too late or too early. Fill this field using this format  
-mm-dd-yyyy (12-05-2021) or false if you desire to disable it.
+YYYY-mm-dd (2023-05-19) or false if you desire to disable it.
 
 ### <ins>Setting up the pic</ins>
 
