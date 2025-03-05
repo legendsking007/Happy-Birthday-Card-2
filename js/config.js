@@ -1,9 +1,9 @@
 export default {
-  name: "Martha", // actual name of the recipient (Mandatory)
+  name: "AFTRAKUL", // actual name of the recipient (Mandatory)
 
-  nickname: "", // nickname(optional)
+  nickname: "CONTRO", // nickname(optional)
 
-  pic: "", // image url of recipients (Mandatory)
+  pic: "https://photos.app.goo.gl/L4cn9jGKVt3opxi27", // image url of recipients (Mandatory)
 
   showScrollMsg: true, // set to false if you do not want the scrolling message
 
