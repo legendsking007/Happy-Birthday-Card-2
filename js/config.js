@@ -7,7 +7,7 @@ export default {
 
   showScrollMsg: true, // set to false if you do not want the scrolling message
 
-  openDate: "2023-3-28", // the page only can be opened at this time, read README.md
+  openDate: "2025-3-5", // the page only can be opened at this time, read README.md
 
-  timeZone: "Asia/Jakarta", // timezone to use openDate feature
+  timeZone: "IST", // timezone to use openDate feature
 };
